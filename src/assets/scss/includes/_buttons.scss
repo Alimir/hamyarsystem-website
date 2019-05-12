@@ -1,0 +1,115 @@
+.btn, .label {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #637d8c;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 15px;
+  color: #fff;
+  margin: 0 2px;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  transition: all 0.3s ease;
+  text-align: center;
+  outline: 0;
+  border: 0;
+  background-size: 110%;
+  &.wide {
+    padding: 10px 35px;
+  }
+  &.large {
+    padding: 15px 35px;
+  }
+  &.bold {
+    font-weight: bold;
+  }
+  &.rounded {
+    border-radius: 10rem;
+  }
+  &.transparent {
+    background: transparent;
+    color: inherit;
+  }
+  &.transparent.enable, &.transparent-white {
+    color: inherit;
+    background: #ffffffab;
+    box-shadow: 2px 2px 20px 2px #0000000f;
+  }
+
+  &.white {
+    background: #FFFFFF;
+    color: #404951;
+    &.shadow, &:hover {
+      box-shadow: 0 4px 18px 0 rgba(51, 58, 101, 0.07);
+    }
+  }
+  &.small-text {
+    font-size: 13px;
+  }
+  &[disabled] {
+    opacity: 0.7;
+  }
+}
+
+.btn {
+  cursor: pointer;
+  &:hover:not(.fixed) {
+    transform: translateY(1px);
+  }
+}
+
+.label {
+  padding: 6px 30px;
+  &.transparent.enable, &.transparent-white {
+    color: #8395a9;
+  }
+  &.small {
+    padding: 3px 18px;
+  }
+}
+
+.peach, .dark-peach {
+  background-image: linear-gradient(135deg, #FF6876 0%, #FFC9A1 97%, #FF257B 100%, #FF62A0 100%);
+  &.shadow, &:hover {
+    box-shadow: 0 7px 11px 0 rgba(255, 204, 183, 0.56);
+  }
+}
+
+.dark-peach {
+  background-image: linear-gradient(132deg, #FC7097 0%, #FFAC8C 100%);
+}
+
+.blue {
+  background-image: linear-gradient(130deg, #8392F9 0%, #A6CEF1 100%);
+}
+
+.darker-blue {
+  background-image: linear-gradient(122deg, #7692FF 0%, #C2A2F5 100%);
+}
+
+.solid-orange {
+  background: #FFEEBD;
+  color: #a9996e;
+}
+
+.solid-blue {
+  background: #728AFF;
+  color: #FFFFFF;
+}
+
+.solid-yellow {
+  background: #FFD169;
+  color: #605f62;
+}
+
+.solid-gray, .solid-light-gray {
+  background: #DDE0ED;
+  color: #6C7184;
+}
+
+.solid-light-gray {
+  background: #F2F6FA;
+}

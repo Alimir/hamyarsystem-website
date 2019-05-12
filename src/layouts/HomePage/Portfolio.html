@@ -1,0 +1,36 @@
+<section class="portfolio-section p-r section-margin cf" id="portfolio-section">
+    <img src="../../assets/images/particle-portfolio-right.svg" class="p-a particle-right no-select no-drag">
+    <img src="../../assets/images/particle-portfolio-left.svg" class="p-a particle-left no-select no-drag">
+    <div class="container">
+        <div class="section-content">
+            <div class="row around-xs">
+                <div class="col-xs-12 col-md-6">
+                    <div class="btn peach rounded shadow square-50 right flex center-row font-size-25 p-a m-t-20">
+                        <i class="icon-layers"></i>
+                    </div>
+
+                    <div class="section-title darker-text-color center-text">
+                        <small class="block font-weight-light lighter-text-color">این طراحی را</small>
+                        <strong class="block">کسی فراموش نخواهد کرد!</strong>
+                    </div>
+                    <p class="section-content lighter-text-color">
+                        در همیار سیستم آمیزه ای از هنر، خلاقیت و مهندسی را در کنار هم گرد آورده ایم تا بزرگترین ویترین کسب و کار شما در فضای مجازی را زیبا، ماندگار و از همه مهم تر، کاربرپسند طراحی و پیاده سازی کنیم.
+                    </p>
+
+                    <div class="center-text">
+                        <a href="#" class="btn bold peach wide m-t-1-rem center">نمونه کارها</a>
+                        <div class="font-size-16 lighter-text-color m-t-2-rem">نتیجه رضایت‌بخش بیش‌از 100 محصول اتفاقی نیست</div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="portfolio-list m-t-4-rem no-select no-drag">
+        <ul class="portfolio-slider">
+            ${require('../../constants/HomePage.ts').HomePage.portfolio.map((image, index) => image && `
+            <li class="portfolio-demo"><img srcSet="${image.srcSet}" src="${image.src}" width="400" height="667" alt="نمونه کار ${index}"></li>
+            `).join('')}
+        </ul>
+    </div>
+</section>

@@ -1,0 +1,37 @@
+</a>
+
+<div class="responsive-menu-toggle pointer center-text btn transparent square-40 p-f padding-4 hidden">
+    <i class="icon-menu1"></i>
+</div>
+<ul class="inline-list main-header-list no-select">
+    ${require('../../../Navbar.ts').MainNavbar.map((navigation, navigationID) => navigation && `
+    <li><a href="${navigation.URL}" target="${navigation.blank ? '_blank' : '_self'}">${navigation.title}</a>
+        ${(navigation.menu ? `
+        <i class="icon-arrow_drop_down"></i>
+        <div class="sub-menu menu-${navigationID}" style="opacity:0;visibility:hidden">
+            <ul>
+                ${navigation.menu.map(subNavigation => subNavigation && `
+                <li>
+                    <a href="${subNavigation.URL}" target="${subNavigation.blank ? '_blank' : '_self'}">
+                        ${subNavigation.image ? `<img src="${subNavigation.image}" class="sub-navigation-image"> ` : ''}
+                        ${subNavigation.title}
+                    </a>
+                    ${subNavigation.menu.map(sub2Navigation => sub2Navigation && `<span>${sub2Navigation.title}</span>`).join('')}
+                </li>
+                `).join('')}
+            </ul>
+        </div>
+        ` : '')}
+    </li>
+    `).join('')}
+</ul>
+
+</div>
+<div class="header-subsidiary-navigation-holder left no-select cf">
+    <ul class="inline-child subsidiary-header-list">
+        <li><a href="https://jobinja.ir/companies/hamyarsystem/jobs" rel="nofollow" target="_blank" class="btn fixed transparent">فرصت‌های شغلی</a></li>
+        <li><a href="#" class="btn fixed transparent enable">پرتال مشتریان</a></li>
+    </ul>
+</div>
+</nav>
+</div>

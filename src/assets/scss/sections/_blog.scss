@@ -1,0 +1,113 @@
+.blog-section {
+  .blog-posts {
+    .category-list {
+      border-bottom: 1px solid #E2E7F0;
+      > ul {
+        margin: 0;
+        padding: 0;
+        > li {
+          cursor: pointer;
+          padding: 10px 15px;
+          position: relative;
+          transition: all 0.2s ease;
+          &:after {
+            content: "";
+            width: 100%;
+            height: 3px;
+            background: #95ABF8;
+            position: absolute;
+            right: 0;
+            bottom: -2px;
+            transform: scale(0.8);
+            opacity: 0;
+            transition: all 0.2s ease;
+          }
+          &.enable {
+            font-weight: bold;
+            color: #485061;
+            &:after {
+              transform: scale(1);
+              opacity: 1;
+            }
+          }
+        }
+      }
+    }
+    .posts {
+      height: 360px;
+      transition: all 0.3s ease;
+      #blog-post-contents {
+        transition: all 0.3s ease;
+      }
+      .blog-card {
+        background: #fff;
+        box-shadow: 0 7px 22px 0 rgba(80, 100, 183, 0.08);
+        border-radius: 9px;
+        height: 360px;
+        overflow: hidden;
+        transition: all 0.3s ease;
+        .post-image {
+          height: 165px;
+          background: #d8d8d8;
+          border-radius: 9px 9px 0 0;
+          overflow: hidden;
+          > img {
+            width: 100%;
+            min-height: 100%;
+          }
+        }
+        .content-holder {
+          padding: 20px;
+          .post-title {
+            font-size: 16px;
+            font-weight: initial;
+            width: 85%;
+            height: 70px;
+          }
+          .post-tags {
+            > span {
+              background: #FFEEBD;
+              font-size: 13px;
+              color: rgba(0, 0, 0, 0.29);
+              text-align: center;
+            }
+          }
+          .post-info {
+            opacity: 0.5;
+            font-size: 14px;
+            i {
+              float: right;
+              margin-left: 6px;
+              font-size: 20px;
+            }
+          }
+        }
+        &:hover {
+          box-shadow: 0 15px 34px 0 rgba(80, 100, 183, 0.08);
+          transform: translateY(-2px);
+        }
+      }
+      &.loading {
+        #blog-post-contents {
+          opacity: 0.4;
+        }
+        .loading-spinner {
+          display: block;
+        }
+      }
+      .loading-spinner {
+        z-index: 1000000;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        margin: auto;
+        width: 40px;
+        height: 40px;
+        border: 4px solid #95abf8;
+        border-right-color: #0000;
+        display: none;
+      }
+    }
+  }
+}

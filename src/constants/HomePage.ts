@@ -1,0 +1,66 @@
+export const HomePage = {
+    portfolio: [
+        require('../assets/images/portfolio/drentezari.jpeg?sizes[]=100,sizes[]=200,sizes[]=350'),
+        require('../assets/images/portfolio/drhsnajafi.jpeg?sizes[]=100,sizes[]=200,sizes[]=350'),
+        require('../assets/images/portfolio/fitnessespin.jpeg?sizes[]=100,sizes[]=200,sizes[]=350'),
+        require('../assets/images/portfolio/espinclub.jpeg?sizes[]=100,sizes[]=200,sizes[]=350'),
+        require('../assets/images/portfolio/nabzema.jpeg?sizes[]=100,sizes[]=200,sizes[]=350'),
+        require('../assets/images/portfolio/drkarami.jpeg?sizes[]=100,sizes[]=200,sizes[]=350'),
+        require('../assets/images/portfolio/drrezanaderi.jpeg?sizes[]=100,sizes[]=200,sizes[]=350'),
+        require('../assets/images/portfolio/iranaplo.jpeg?sizes[]=100,sizes[]=200,sizes[]=350'),
+        require('../assets/images/portfolio/dryazdankhah.jpeg?sizes[]=100,sizes[]=200,sizes[]=350'),
+        require('../assets/images/portfolio/iranvein.jpeg?sizes[]=100,sizes[]=200,sizes[]=350'),
+    ],
+    comments: [
+        {
+            name: 'دکتر محمد حسین نجفی',
+            expertise: 'فوق تخصص قلب',
+            image: require('../assets/images/clients/drhsnajafi.jpeg?sizes[]=100,sizes[]=200,sizes[]=220'),
+            comment: 'در گروه همیار سیستم، رابطه مشتری و کارفرما وجود ندارد. بچه ‌های همیار سیستم به معنای واقعی دوستان من محسوب می شوند که دلسوزانه در حال کار روی سایت بنده هستند.',
+            URL: 'https://drhsnajafi.com',
+        },
+        {
+            name: 'دکتر گیتا مجیدزاده',
+            expertise: 'پوست مو و زیبایی',
+            image: require('../assets/images/clients/drmajidzadeh.jpeg?sizes[]=100,sizes[]=200,sizes[]=220'),
+            comment: 'همیار سیستم پیشنهاد یکی از دوستان نزدیکم بود. در ابتدا فکر می کردم قرار است با یک سایت، تعدادی مقاله و یک نرم افزار غیرقابل تغییر رو به رو شوم ولی تیم همیار سیستم به قدری مشتری مدار بودند که نرم افزار را بر اساس خدمات و نیازهای کلینیک ما، تغییر دادند تا بیشترین بهره وری را داشته باشیم.',
+            URL: 'https://drmajidzadeh.com',
+        },
+        {
+            name: 'مجموعه ورزشی اسپین',
+            expertise: 'آکادمی ژیمناستیک و تناسب اندام',
+            image: require('../assets/images/clients/espinclub.jpeg?sizes[]=100,sizes[]=200,sizes[]=220'),
+            comment: 'ما چندین شعبه در تهران داشتیم که رسیدگی به وضعیت ثبت نام و درامدهای آنها به راحتی امکان پذیر نبود. به جرات می توانم بگویم همیار سیستم برای ما فراتر از یک طراحی سایت بود. در همیار سیستم، روند کار ما از ثبت نام گرفته تا خریدهای اینترنتی، تنها با چند کلیک بر روی وب سایت اسپین امکان پذیر است.',
+            URL: 'http://espinclub.ir',
+        },
+        {
+            name: 'دکتر حسین کرمی',
+            expertise: 'فوق تخصص اورولوژی',
+            image: require('../assets/images/clients/drkarami.jpeg?sizes[]=100,sizes[]=200,sizes[]=220'),
+            comment: 'در عصری که همه چیز در دنیای مجازی جستجو می شود، انتخاب گروهی که بتواند در طراحی سایت و سایر امکانات آن، نیازهای بیماران و محدودیت زمانی پزشک را در نظر بگیرد، بسیار مهم است. از همکاری با این گروه بسیار خرسندم.',
+            URL: 'https://drkarami.com',
+        },
+        {
+            name: 'دکتر عباس انتظاری',
+            expertise: 'پوست مو و زیبایی',
+            image: require('../assets/images/clients/drentezari.jpeg?sizes[]=100,sizes[]=200,sizes[]=220'),
+            comment: 'برای من که همیشه به دنبال آخرین تکنولوژی ‌های دنیای ای تی در زمینه پزشکی هستم، آشنایی با همیار سیستم فرصت خوبی بود تا درمان آنلاین را با این گروه تجربه کنم.',
+            URL: 'https://drentezari.com',
+        },
+        {
+            name: 'دکتر محمد جباری',
+            expertise: 'فوق تخصص اورولوژی',
+            image: require('../assets/images/clients/drjabbari.jpeg?sizes[]=100,sizes[]=200,sizes[]=220'),
+            comment: 'طراحی سایت دقیقا بر اساس سلیقه من صورت گرفت و امکانات آن به خصوص نرم افزارها، فراتر از حد انتظارم بود.',
+            URL: 'https://www.drjabbari.com',
+        },
+
+    ],
+    clientServices: [
+        require('../assets/images/clients/drhsnajafi.jpeg?sizes[]=60,sizes[]=110'),
+        require('../assets/images/clients/drgolestan.jpg?sizes[]=60,sizes[]=80'),
+        require('../assets/images/clients/drentezari.jpeg?sizes[]=60,sizes[]=70'),
+        require('../assets/images/clients/drkarami.jpeg?sizes[]=40,sizes[]=50'),
+        require('../assets/images/clients/drhendesi.jpeg?sizes[]=60,sizes[]=75'),
+    ],
+};

@@ -1,0 +1,28 @@
+<svg width="194px" height="220px" viewBox="0 0 194 220" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="0.0722543353%" y1="49.9277457%" x2="99.9277457%" y2="49.9277457%" id="linearGradient-1">
+            <stop stop-color="#ACFBDA" offset="0%"></stop>
+            <stop stop-color="#74DBF6" offset="100%"></stop>
+        </linearGradient>
+        <ellipse id="path-2" cx="85" cy="23" rx="85" ry="23"></ellipse>
+        <filter x="-1.8%" y="-6.5%" width="103.5%" height="126.1%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="6" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feColorMatrix values="0 0 0 0 0.0235294118   0 0 0 0 0.247058824   0 0 0 0 0.419607843  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-83.000000, -594.000000)">
+            <g id="emonshi-slider" transform="translate(83.000000, 227.000000)">
+                <g id="table" transform="translate(0.000000, 367.000000)">
+                    <ellipse id="Oval" fill-opacity="0.04" fill="#1E4158" cx="102" cy="188.5" rx="92" ry="31.5"></ellipse>
+                    <ellipse id="Oval" fill="#1B5D90" cx="86.5" cy="190" rx="60.5" ry="18"></ellipse>
+                    <rect id="Rectangle" fill="#063F6B" x="83" y="48" width="8" height="142" rx="4"></rect>
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                        <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

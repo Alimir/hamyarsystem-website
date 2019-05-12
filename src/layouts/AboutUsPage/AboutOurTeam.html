@@ -1,0 +1,44 @@
+<section class="section-margin about-out-team-section cf" id="about-out-team-section">
+    <div class="container">
+        <div class="section-content">
+            <div class="row around-xs">
+                <div class="col-xs-12 col-md-10">
+                    <div class="center-text">
+                        <div class="section-title">
+                            <small class="block font-weight-light lighter-text-color">ما که هستیم؟ با ما آشنا شوید</small>
+                            <strong class="block">تیم ما</strong>
+                        </div>
+
+                        <div class="section-content m-t-6-rem">
+                            <div class="our-team">
+                                <div class="row around-xs">
+                                    ${require('../../constants/AboutUs.ts').AboutUs.team.map((employee, item) => employee && `
+                                    <div class="col-xs-6 col-sm-4 col-md-3">
+                                        <div class="person-card no-select no-drag overflow-hidden wow fadeInUp" data-wow-delay="${item / 6}s">
+                                            <i class="person-image-background" style="background-image: url(${employee.image.src})"></i>
+                                            <div class="card-content">
+                                                <div class="person-image">
+                                                    <img class="rounded" src="${employee.image.src}" srcSet="${employee.image.srcSet}" alt="${employee.name}">
+                                                </div>
+                                                <div class="person-info center-text">
+                                                    <strong class="block font-size-18">${employee.name}</strong>
+                                                    <span class="block lighter-text-color font-weight-light">${employee.expertise}</span>
+                                                </div>
+                                                <!--<div class="social-media">-->
+                                                <!--<a target="_blank" class="twitter">-->
+                                                <!---->
+                                                <!--</a>-->
+                                                <!--</div>-->
+                                            </div>
+                                        </div>
+                                    </div>
+                                    `).join('')}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

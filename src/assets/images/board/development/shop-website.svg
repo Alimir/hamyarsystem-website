@@ -1,0 +1,57 @@
+<svg width="451px" height="391px" viewBox="0 0 451 391" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="50%" y1="14.4058919%" x2="50%" y2="161.754794%" id="linearGradient-1">
+            <stop stop-color="#EEEEEE" offset="0%"></stop>
+            <stop stop-color="#CDD6E0" offset="100%"></stop>
+        </linearGradient>
+        <path d="M10,0.0412586904 L381.75795,0.0412586904 C387.280798,0.0412586904 391.75795,4.51841119 391.75795,10.0412587 L391.75795,74.0153423 L0,74.0153423 L0,10.0412587 C-6.76353751e-16,4.51841119 4.4771525,0.0412586904 10,0.0412586904 Z"
+              id="path-2"></path>
+        <path d="M0.446808511,74.3174571 L392.204759,74.3174571 L392.204759,328.656627 C392.204759,334.179474 387.727606,338.656627 382.204759,338.656627 L10.4468085,338.656627 C4.92396101,338.656627 0.446808511,334.179474 0.446808511,328.656627 L0.446808511,74.3174571 Z"
+              id="path-4"></path>
+        <filter x="-14.4%" y="-12.7%" width="128.8%" height="142.7%" filterUnits="objectBoundingBox" id="filter-5">
+            <feOffset dx="0" dy="23" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="15" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.631372549   0 0 0 0 0.71372549   0 0 0 0 0.819607843  0 0 0 0.14 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <ellipse id="path-6" cx="195.659574" cy="73.0015106" rx="19.6808511" ry="19.6178248"></ellipse>
+        <filter x="-59.7%" y="-47.2%" width="219.4%" height="219.8%" filterUnits="objectBoundingBox" id="filter-7">
+            <feOffset dx="0" dy="5" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.21867055   0 0 0 0 0.298382784   0 0 0 0 0.585060587  0 0 0 0.126075634 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Software" transform="translate(-291.000000, -277.000000)">
+            <g id="Group-14" transform="translate(215.000000, 277.000000)">
+                <g id="Rectangle" transform="translate(105.000000, 0.000000)">
+                    <g id="Path-3" transform="translate(0.446809, 0.302115)">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <use id="Mask" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    </g>
+                    <g id="Rectangle-Copy-15">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-5)" xlink:href="#path-4"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-4"></use>
+                    </g>
+                    <g id="Group-40" transform="translate(31.000000, 129.000000)" stroke="#E8E9EA" stroke-linecap="square">
+                        <path d="M165,1 L165,178.940828" id="Line-3"></path>
+                    </g>
+                    <g id="Oval">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-7)" xlink:href="#path-6"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-6"></use>
+                    </g>
+                    <g id="flaticon1543498029-svg" transform="translate(186.617021, 65.048338)" fill="#2E3151" fill-rule="nonzero">
+                        <path d="M5.74468085,15.2700906 C4.69148936,15.2700906 3.82978723,16.1290332 3.82978723,17.178852 C3.82978723,18.2286707 4.69148936,19.0876133 5.74468085,19.0876133 C6.79787234,19.0876133 7.65957447,18.2286707 7.65957447,17.178852 C7.65957447,16.1290332 6.79787234,15.2700906 5.74468085,15.2700906 Z M0,0 L0,1.90876133 L1.91489362,1.90876133 L5.36170213,9.16205438 L4.0212766,11.452568 C3.92553191,11.7388822 3.82978723,12.1206344 3.82978723,12.4069486 C3.82978723,13.4567674 4.69148936,14.31571 5.74468085,14.31571 L17.2340426,14.31571 L17.2340426,12.4069486 L6.12765957,12.4069486 C6.03191489,12.4069486 5.93617021,12.3115106 5.93617021,12.2160725 L5.93617021,12.120597 L6.79787234,10.4981499 L13.8829787,10.4981499 C14.6489362,10.4981499 15.2234043,10.1163976 15.5106383,9.54376922 L18.9574468,3.34033233 C19.1489362,3.14945619 19.1489362,3.05401813 19.1489362,2.86314199 C19.1489362,2.2905136 18.7659574,1.90876133 18.1914894,1.90876133 L4.0212766,1.90876133 L3.15957447,0 L0,0 Z M15.3191489,15.2700906 C14.2659574,15.2700906 13.4042553,16.1290332 13.4042553,17.178852 C13.4042553,18.2286707 14.2659574,19.0876133 15.3191489,19.0876133 C16.3723404,19.0876133 17.2340426,18.2286707 17.2340426,17.178852 C17.2340426,16.1290332 16.3723404,15.2700906 15.3191489,15.2700906 Z"
+                              id="Shape"></path>
+                    </g>
+                    <g id="Group-54" transform="translate(13.000000, 12.000000)">
+                        <circle id="Oval" fill="#FF8686" cx="5" cy="5" r="5"></circle>
+                        <circle id="Oval-Copy" fill="#FFC06B" cx="21" cy="5" r="5"></circle>
+                        <circle id="Oval-Copy-3" fill="#62E2B1" cx="37" cy="5" r="5"></circle>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

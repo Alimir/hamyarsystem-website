@@ -1,0 +1,20 @@
+<svg width="203px" height="345px" viewBox="0 0 203 345" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <linearGradient x1="65.7707537%" y1="140.368438%" x2="61.1998288%" y2="8.26480913%" id="linearGradient-1">
+            <stop stop-color="#FEAC27" offset="0%"></stop>
+            <stop stop-color="#FEEBCB" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-1238.000000, -2969.000000)" fill="url(#linearGradient-1)">
+            <g id="design-section" transform="translate(-225.000000, 2922.000000)">
+                <g id="Group-19">
+                    <g id="Group-9">
+                        <path d="M1396.63665,228.020089 C1415.61467,179.850367 1473.27267,142.899935 1524.99469,145.934399 C1564.03088,148.224601 1573.03012,167.380839 1619.81595,157.046014 C1651.26818,150.098328 1695.65731,107.560414 1720.42815,151.236881 C1771.65198,241.555824 1645.90201,311.450342 1571.29451,307.853861 C1558.13393,307.21945 1545.50656,302.436385 1532.61259,299.727647 C1465.18484,296.765826 1423.29581,290.973711 1406.94551,282.351302 C1390.59521,273.728894 1387.15892,255.618489 1396.63665,228.020089 Z"
+                              id="Path-16-Copy-2" transform="translate(1561.889582, 219.886375) rotate(-63.000000) translate(-1561.889582, -219.886375) "></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,84 @@
+<section class="up-to-header contact-section cf m-b-0" id="contact-section">
+    <div class="container">
+        <div class="section-content">
+            <div class="row around-xs">
+                <div class="col-xs-12 col-md-10">
+                    <div class="center-text">
+                        <h2 class="section-title darker-text-color">تماس با ما</h2>
+                        <p class="section-content lighter-text-color">
+                            پیغام شما می تواند شروع یک پروژه بزرگ و پیدا کردن یک دوست جدید برای ما باشد.
+                        </p>
+                    </div>
+
+                    <div class="m-t-2-rem">
+                        <div class="white-box font-size-15 padding-30 overflow-hidden">
+                            <div class="flex around-xs">
+                                <a class="contact-info lighter-text-color address cf" href="#">
+                                    <i class="icon-location_city peach-bg text-gradient font-size-27 right m-l-10"></i>
+                                    <span>${require('../../constants/Constants.ts').Constants.site.company.address}</span>
+                                </a>
+                                <a class="contact-info lighter-text-color email cf" href="mailto:${require('../../constants/Constants.ts').Constants.site.company.email}">
+                                    <i class="icon-mail_outline peach-bg text-gradient font-size-27 right m-l-10"></i>
+                                    <span>${require('../../constants/Constants.ts').Constants.site.company.email}</span>
+                                </a>
+                                <a class="contact-info lighter-text-color phone cf" href="tel:${require('../../constants/Constants.ts').Constants.site.company.phone}">
+                                    <i class="icon-phone_in_talk peach-bg text-gradient font-size-27 right m-l-10"></i>
+                                    <span>${require('../../constants/Constants.ts').Constants.site.company.phone}</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="m-t-2-rem">
+                        <div class="white-box font-size-15 padding-30 contact-us-form overflow-hidden">
+                            <div class="row between-xs reverse">
+                                <div class="col-xs-12 col-md-4 col-sm-12 map-holder">
+                                    <iframe class="left m-l-n-30 m-t-n-30 m-b-n-30" src="${require('../../constants/Constants.ts').Constants.site.company.map}" width="500" height="315" frameborder="0" style="border:0" allowfullscreen></iframe>
+                                </div>
+                                <div class="col-xs-12 col-md-8 col-sm-12 form-holder">
+                                    <form class="contact-form" id="contact-form" autocomplete="on">
+                                        <p class="font-size-15">
+                                            انتقادات ، پیشنهادات و درخواست ‌های خود را از طریق فرم زیر برای ما ارسال نمائید.
+                                        </p>
+
+                                        <div class="field-line two-input">
+                                            <div class="form-group">
+                                                <input type="text" name="name" id="name" autocomplete="name" class="form-control input-text" required minlength="3" maxlength="50" placeholder="نام و نام خانوادگی">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input type="text" name="subject" id="subject" autocomplete="off" class="form-control input-text" required minlength="3" maxlength="50" placeholder="موضوع">
+                                            </div>
+                                        </div>
+
+                                        <div class="field-line two-input">
+
+                                            <div class="form-group">
+                                                <input type="tel" name="tel" id="tel" autocomplete="tel" class="form-control input-text" required placeholder="موبایل">
+                                            </div>
+
+                                            <div class="form-group">
+                                                <input type="email" name="email" id="email" autocomplete="email" class="form-control input-text" placeholder="ایمیل">
+                                            </div>
+                                        </div>
+
+                                        <div class="field-line">
+                                            <div class="form-group">
+                                                <textarea required="required" name="detail" class="form-control input-text" cols="30" rows="10" placeholder="شرح درخواست"></textarea>
+                                            </div>
+                                        </div>
+
+                                        <div class="field-line">
+                                            <button type="submit" class="btn dark-peach bold large shadow">ارسال</button>
+                                        </div>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

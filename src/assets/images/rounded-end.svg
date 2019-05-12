@@ -1,0 +1,17 @@
+<svg width="1592px" height="732px" viewBox="0 0 1592 732" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M0,0 L1593,0 L1593,826 C1269.88889,864.666667 1015.88889,884 831,884 C646.111111,884 369.111111,864.666667 0,826 L0,0 Z" id="path-1"></path>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Contact">
+            <g id="Bitmap" transform="translate(-1.000000, -152.000000)">
+                <g>
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <use id="Mask" fill="#F2F5F8" xlink:href="#path-1"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,9 @@
+.contact-us-form {
+  .map-holder {
+    > iframe {
+      width: 100%;
+      height: calc(100% + 60px);
+      min-height: 480px;
+    }
+  }
+}

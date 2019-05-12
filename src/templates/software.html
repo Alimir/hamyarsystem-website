@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="fa">
+<head>
+    <title><%= htmlWebpackPlugin.options.title %></title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <% if (htmlWebpackPlugin.options.meta.canonical) { %>
+    <link rel="canonical" href="<%= htmlWebpackPlugin.options.meta.canonical %>"/>
+    <% } %>
+    <%= require('html-loader!../layouts/Units/HeadMetaTags.html') %>
+</head>
+<body>
+<div class="wrapper ease-wave-header prev-footer-box">
+    <%= require('html-loader?interpolate!../layouts/Software/Header.html') %>
+    <%= require('html-loader?interpolate!../layouts/Software/AboutApplications.html') %>
+    <%= require('html-loader?interpolate!../layouts/Commons/PrevFooter.html') %>
+    <%= require('html-loader?interpolate!../layouts/Commons/Footer.html') %>
+</div>
+</body>
+</html>

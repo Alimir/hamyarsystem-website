@@ -1,0 +1,123 @@
+.shop-website-box {
+  margin-top: 2rem;
+  z-index: 1;
+  > .shop-website-payment {
+    right: 16rem;
+    top: 33%;
+  }
+  > .shop-website-items {
+    top: 33%;
+    right: 4.8rem;
+  }
+  > .purchaser-man {
+    right: 27rem;
+    bottom: 5%;
+  }
+  > .carts {
+    right: 18rem;
+    bottom: 5%;
+  }
+}
+
+.about-our-apps-section {
+  .image-holder {
+    .secretary {
+      left: -1rem;
+      bottom: 1rem;
+    }
+  }
+
+  .notification {
+    background: #FFF7F3;
+    border: 1px solid #FFD5D5;
+    border-radius: 5px;
+    color: #FE7E7E;
+    padding: 12px;
+    font-size: 14px;
+    display: inline-block;
+    position: absolute;
+    top: -2rem;
+    right: 5rem;
+    > i {
+      width: 6px;
+      height: 6px;
+      border-radius: 100%;
+      background: currentColor;
+      display: inline-block;
+      margin-left: 10px;
+    }
+  }
+}
+
+.faq-features-section {
+  &:before {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: linear-gradient(132deg, #8169F3 0%, #40A3BE 100%);
+    width: 100%;
+    height: 65%;
+    z-index: 1;
+  }
+  .faq-features-list {
+    font-size: 15px;
+    .white-box {
+      padding: 2rem;
+      box-shadow: 0 12px 84px 0 rgba(12, 50, 99, 0.17);
+      .feature-item {
+        padding: 15px 12px;
+        min-height: 105px;
+        > span {
+          padding: 0;
+          margin: 0;
+          font-size: 23px;
+          min-width: 55px;
+          min-height: 55px;
+        }
+        > div {
+          padding-right: 80px;
+        }
+      }
+    }
+  }
+}
+
+.about-our-apps-2-section {
+  .odr-features-section {
+    .info-box {
+      border-radius: 9px;
+      padding: 1.5rem;
+      height: 100%;
+      .label {
+        min-width: 30px;
+        min-height: 30px;
+        padding: 0;
+      }
+    }
+    .feature-item {
+      padding: 10px;
+      div {
+        font-size: 14px;
+        margin-right: 40px;
+      }
+    }
+  }
+}
+
+.odr-image-holder {
+  &.image-holder {
+    .odr-date-box {
+      right: 7rem;
+      bottom: -4rem;
+    }
+    .patient-man {
+      bottom: -2rem;
+      left: 10rem;
+    }
+    .odr-doctor {
+      bottom: -2rem;
+      left: 7rem;
+    }
+  }
+}

@@ -1,0 +1,35 @@
+stages:
+- build
+- deploy
+
+image: node:latest
+
+cache:
+  paths:
+  - node_modules
+  key: "node_modules"
+
+build:
+  stage: build
+  artifacts:
+    paths:
+    - dist/
+    expire_in: 1 week
+  script:
+  - unset CI
+  - npm install
+  - npm run build
+
+deploy_intro:
+  stage: deploy
+  script:
+  - eval $(ssh-agent -s)
+  - ssh-add <(echo "$DEVELOP_PRIVATE_KEY")
+  - mkdir -p ~/.ssh
+  - echo -e "Host *\n\tStrictHostKeyChecking no\n\n" > ~/.ssh/config
+  - scp -P 48235 -r dist/* root@209.190.100.105:/home2/hamyarcm/public_html/v2/
+  - echo "Is live now at https://hamyarsystem.com/"
+  only:
+  - master
+  dependencies:
+  - build

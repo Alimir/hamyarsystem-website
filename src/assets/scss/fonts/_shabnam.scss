@@ -1,0 +1,4 @@
+$shabnam: 'https://hamyarsystem.com/assets/fonts/shabnam/Shabnam';
+@include font-face(Shabnam, $shabnam + '-FD-WOL', normal, normal, woff2 woff);
+@include font-face(Shabnam, $shabnam + '-Light-FD-WOL', 300, normal, woff2 woff);
+@include font-face(Shabnam, $shabnam + '-Bold-FD-WOL', bold, normal, woff2 woff);

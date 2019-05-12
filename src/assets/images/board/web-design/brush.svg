@@ -1,0 +1,51 @@
+<svg width="118px" height="83px" viewBox="0 0 118 83" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="63.3119038%" y1="22.3438062%" x2="53.1855628%" y2="82.145964%" id="linearGradient-1">
+            <stop stop-color="#D9E5F8" offset="0%"></stop>
+            <stop stop-color="#C6D7F3" offset="37.6312546%"></stop>
+            <stop stop-color="#8099C6" offset="100%"></stop>
+        </linearGradient>
+        <path d="M8.4326776,31.7548945 C8.15193293,31.5970126 7.87617565,31.4257854 7.60604051,31.2411564 C1.50936532,27.0740252 0.5984867,17.6393398 5.57136709,10.1681688 C9.70963058,3.95106148 16.6182527,1.0527531 22.3340727,2.65628318 C22.3538409,2.64757479 22.3736091,2.63880986 22.3932867,2.63015803 L89.6619222,24.4569298 L75.5778979,55.4755134 C41.273003,44.1072276 18.9102754,36.2487031 8.48953383,31.900053 C8.47049107,31.851648 8.45144832,31.803243 8.4326776,31.7548945 Z"
+              id="path-2"></path>
+        <linearGradient x1="100%" y1="56.2948691%" x2="35.4971513%" y2="17.1429453%" id="linearGradient-4">
+            <stop stop-color="#C7D2F1" offset="0%"></stop>
+            <stop stop-color="#96B1DE" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="34.9320405%" y1="144.421577%" x2="50%" y2="12.4006574%" id="linearGradient-5">
+            <stop stop-color="#BFCDE3" offset="0%"></stop>
+            <stop stop-color="#8B9EC3" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="42.3674533%" y1="23.2447161%" x2="59.1992909%" y2="69.4345242%" id="linearGradient-6">
+            <stop stop-color="#F1F7FF" offset="0%"></stop>
+            <stop stop-color="#96AACC" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="100%" y1="73.7865258%" x2="0%" y2="50%" id="linearGradient-7">
+            <stop stop-color="#EDF3FD" offset="0%"></stop>
+            <stop stop-color="#D6E3FA" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Design" transform="translate(-453.000000, -577.000000)">
+            <g id="new-white" transform="translate(198.000000, 244.000000)">
+                <g id="brush" transform="translate(254.000000, 331.000000)">
+                    <g transform="translate(18.600985, 0.000000)">
+                        <mask id="mask-3" fill="white">
+                            <use xlink:href="#path-2"></use>
+                        </mask>
+                        <use id="" fill="url(#linearGradient-1)" xlink:href="#path-2"></use>
+                    </g>
+                    <path d="M111.400705,47.3740165 C116.615491,39.5395791 115.257843,29.3709085 108.368261,24.6617865 C101.478679,19.9527045 91.666176,22.4863305 86.4513526,30.3208079 C81.2365292,38.1552854 82.5942151,48.3238359 89.483834,53.032998 C96.3733413,57.7420799 106.185882,55.208494 111.400705,47.3740165 Z"
+                          id="side" fill="url(#linearGradient-4)"></path>
+                    <polyline id="rod" stroke="url(#linearGradient-5)" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"
+                              points="98.555774 41.1716388 114.637618 46.6028705 80.9190476 65.5280923 47.5544115 53.4364676 24.8385071 64.9012736"></polyline>
+                    <g id="handle" transform="translate(0.000000, 50.657534)">
+                        <path d="M4.35012638,15.7409729 L32.7778935,1.36994525 C36.9339302,0.648325137 39.675648,2.33066892 41.003126,6.41708085 C42.3304853,10.5034928 41.0887021,13.9320571 37.2776183,16.7029129 L10.5838257,33.6370056 L4.35012638,15.7409729 Z"
+                              id="" fill="url(#linearGradient-6)"></path>
+                        <path d="M10.9108822,33.4568038 C14.1167713,32.4012516 15.4288825,27.5325301 13.8416279,22.5821881 C12.2543732,17.6318678 8.36875531,14.4744957 5.16291503,15.5300697 C1.95700966,16.5856219 0.644914759,21.4543434 2.23216938,26.4047072 C3.819424,31.3550492 7.7049931,34.5123996 10.9108822,33.4568038 Z"
+                              id="" fill="url(#linearGradient-7)"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

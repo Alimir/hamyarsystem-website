@@ -1,0 +1,26 @@
+<svg width="392px" height="232px" viewBox="0 0 392 232" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Design" transform="translate(-369.000000, -360.000000)">
+            <g id="tarahi-site-2" transform="translate(50.000000, 236.000000)">
+                <g id="Group-40" transform="translate(298.000000, 77.000000)">
+                    <rect id="Rectangle" fill="#EEF3F6" x="22" y="110" width="57" height="67" rx="3.69"></rect>
+                    <rect id="Rectangle" fill="#C7D5E0" x="93" y="110" width="114" height="9"></rect>
+                    <rect id="Rectangle" fill="#C7D5E0" x="93" y="130" width="114" height="9"></rect>
+                    <rect id="Rectangle" fill="#C7D5E0" x="93" y="148" width="114" height="9"></rect>
+                    <rect id="Rectangle" fill="#C7D5E0" x="92" y="168" width="58" height="9"></rect>
+                    <rect id="Rectangle" fill="#EBF1F5" x="228" y="110" width="185" height="67" rx="6.65"></rect>
+                    <rect id="Rectangle" fill="#EDF1F6" x="22" y="47" width="391" height="50" rx="3.14"></rect>
+                    <path d="M26.6918877,193 L200.308112,193 C203.451655,193 206,195.538894 206,198.670778 L206,273.329222 C206,274.833206 205.400321,276.27559 204.332885,277.339068 C203.265449,278.402545 201.817695,279 200.308112,279 L35.100048,279 C27.3128065,279 21,272.710606 21,264.952245 L21,198.670778 C21,195.538894 23.5483449,193 26.6918877,193 Z"
+                          id="Path" fill="#EEF1F6"></path>
+                    <circle id="Oval" fill="#A6B8C4" cx="113.5" cy="234.5" r="16.5"></circle>
+                    <path d="M110,231.116495 L110,237.883505 C110.000871,238.651103 110.429235,239.358216 111.119762,239.731927 C111.810288,240.105639 112.654976,240.087499 113.327811,239.68451 L118.967359,236.301005 C119.609391,235.914659 120,235.233406 120,234.5 C120,233.766594 119.609391,233.085341 118.967359,232.698995 L113.327811,229.31549 C112.654976,228.912501 111.810288,228.894361 111.119762,229.268073 C110.429235,229.641784 110.000871,230.348897 110,231.116495 Z"
+                          id="Path" fill="#C7D5E0"></path>
+                    <rect id="Rectangle" fill="#C7D5E0" x="228" y="205" width="114" height="9"></rect>
+                    <rect id="Rectangle" fill="#C7D5E0" x="228" y="224" width="114" height="9"></rect>
+                    <rect id="Rectangle" fill="#C7D5E0" x="228" y="242" width="114" height="9"></rect>
+                    <rect id="Rectangle" fill="#C7D5E0" x="228" y="263" width="58" height="9"></rect>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

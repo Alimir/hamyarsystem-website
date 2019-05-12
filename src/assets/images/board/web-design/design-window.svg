@@ -1,0 +1,20 @@
+<svg width="302px" height="321px" viewBox="0 0 302 321" version="1.1" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+        <radialGradient cx="84.8084794%" cy="13.9932561%" fx="84.8084794%" fy="13.9932561%" r="122.975985%" gradientTransform="translate(0.848085,0.139933),scale(1.000000,0.940810),rotate(118.538622),translate(-0.848085,-0.139933)"
+                        id="radialGradient-1">
+            <stop stop-color="#EDF3FD" offset="0%"></stop>
+            <stop stop-color="#DCE8FB" offset="40.8869518%"></stop>
+            <stop stop-color="#AEBDD8" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Design" transform="translate(-353.000000, -244.000000)" fill="url(#radialGradient-1)">
+            <g id="new-white" transform="translate(198.000000, 244.000000)">
+                <g id="board" transform="translate(155.000000, 0.000000)">
+                    <path d="M293.811572,320.541933 L7.802472,320.541933 C3.765336,320.541933 0.492562,317.261955 0.492562,313.215429 L0.492562,7.784571 C0.492562,3.738045 3.765336,0.458067 7.802472,0.458067 L293.811572,0.458067 C297.84901,0.458067 301.121784,3.738045 301.121784,7.784571 L301.121784,313.215429 C301.121784,317.248473 297.871056,320.520105 293.811572,320.541933 Z"
+                          id="base"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

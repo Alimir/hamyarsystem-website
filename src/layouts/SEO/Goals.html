@@ -1,0 +1,36 @@
+<section class="section-margin seo-goals-section cf" id="seo-goals-section">
+    <div class="container">
+        <div class="section-content">
+            <div class="row between-xs">
+                <div class="col-xs-12 col-md-3 image-holder no-select no-drag center-text p-r flex center-row">
+                    <img src="../../assets/images/board/seo/analytics-window.svg" width="276" height="297" style="width:276px;height:297px" class="analytics-window wow fadeIn shadow" data-rellax-speed="1.5" data-wow-delay="1s">
+                    <img src="../../assets/images/board/seo/analytics-window.svg" width="276" height="297" style="width:276px;height:297px" class="analytics-window wow fadeIn" data-rellax-speed="1.5" data-wow-delay="1.4s">
+                    <img src="../../assets/images/characters/seo-man.svg" width="140" height="277" style="width:140px;height:277px" class="seo-man wow fadeInRight" data-rellax-speed="1.5" data-wow-delay="2s">
+                </div>
+
+                <div class="col-xs-12 col-md-7">
+                    <div class="section-title right-text">
+                        <h2 class="block right-text m-b-6" data-shadow="اهداف سئو">اهداف سئو</h2>
+                        <small class="block font-weight-light lighter-text-color font-size-16">با چه اهدافی خدمات سئو برای وبسایت ها ارائه می شود.</small>
+                    </div>
+
+                    <div class="seo-goals-list font-size-16 m-t-3-rem">
+                        <div class="row between-xs">
+                            ${require('../../constants/SEO.ts').SEO.FAQFeatures.map((goal, item) => goal && `
+                            <div class="col-xs-6">
+                                <div class="seo-goals-item cf">
+                                    <img src="${goal.icon}" class="goal-icon no-select no-drag">
+                                    <div class="goal-content">
+                                        <strong class="block">${goal.title}</strong>
+                                        <span class="block font-weight-light lighter-text-color">${goal.description}</span>
+                                    </div>
+                                </div>
+                            </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

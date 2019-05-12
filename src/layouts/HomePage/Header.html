@@ -1,0 +1,12 @@
+${require('html-loader?interpolate!../Commons/Header-Index.html')}
+<div class="container">
+    <div class="header-slider-wrapper p-r">
+        <div class="header-slider-content show-slide parallax" id="header-slider-content">
+            <div data-slide="1" class="slider-content">${require('html-loader?interpolate!./board/WebDesign.html')}</div>
+            <div data-slide="2" class="slider-content hidden">${require('html-loader?interpolate!./board/Marketing.html')}</div>
+            <div data-slide="3" class="slider-content hidden">${require('html-loader?interpolate!./board/Emonshi.html')}</div>
+        </div>
+    </div>
+</div>
+${require('html-loader?interpolate!./HeaderSliderCarousel.html')}
+${require('html-loader?interpolate!../Commons/Header/Header-End.html')}

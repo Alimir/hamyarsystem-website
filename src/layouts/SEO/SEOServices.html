@@ -1,0 +1,49 @@
+<section class="section-margin seo-services-section cf blue-purple-bg p-r white-text-color section-padding-1-5x" id="seo-services-section">
+    <div class="container">
+        <div class="section-content">
+            <div class="row between-xs">
+                <div class="col-xs-12 col-md-7">
+                    <div class="section-title right-text">
+                        <h2 class="right-text">در سئو چه کارهایی انجام می شود؟</h2>
+                    </div>
+                    <p>
+                        سئو و بهینه سازی وب سایت می‌تواند در افزایش ترافیک مرتبط و هدفمند شما تاثیر چشمگیری داشته باشد. اما سئو سایت اگر به صورت اصولی انجام نشود، می تواند نتیجه عکس داشته باشد. نتایج حاصل از روش ‌های اشتباه سئو یا همان سئوی سیاه،
+                        اسپم
+                        شدن وب
+                        سایت شما و حذف آن از نتایج گوگل خواهد بود.
+                    </p>
+                    <p>
+                        اما در یک استراتژی درست سئو، شما دقیقا کاربران هدف را به سایت خود دعوت می کنید و گوگل نیز استقبال کاربران را درک می کند، به وب سایت شما امتیاز می دهد و در نهایت آن را در نتایج برتر خود نمایش خواهد داد.
+                    </p>
+                </div>
+                <div class="col-xs-12 col-md-4">
+                    <div class="p-r image-holder  no-select no-drag">
+                        <img src="../../assets/images/board/seo/reporting.svg" width="790" height="708" class="reporting-image">
+                        <i class="dotted-square p-a wow rotateInDownLeft" data-rellax-speed="2"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <a href="#seo-services-list-section" class="move-to-next-slide p-a flex center white-text-color center-text square-30 rounded font-size-15">
+        <i class="icon-arrow_downward"></i>
+    </a>
+</section>
+
+<section class="section-margin seo-services-list-section cf p-r section-padding-1-5x m-b-0" id="seo-services-list-section">
+    <div class="container">
+        <div class="section-content center-text">
+            <div class="row">
+                ${require('../../constants/SEO.ts').SEO.services.map((service, item) => service && `
+                <div class="col-xs-12 col-md-4">
+                    <div class="seo-services-item">
+                        <div class="seo-services-icon no-select no-drag"><img src="${service.icon}"></div>
+                        <h3 class="blue-purple-text-color font-size-18">${service.title}</h3>
+                        <p class="font-size-14 font-weight-light">${service.description}</p>
+                    </div>
+                </div>
+                `).join('')}
+            </div>
+        </div>
+    </div>
+</section>

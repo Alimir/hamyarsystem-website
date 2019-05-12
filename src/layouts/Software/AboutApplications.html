@@ -1,0 +1,150 @@
+<section class="section-margin about-our-apps-section cf" id="about-our-apps-section">
+    <div class="container">
+        <div class="section-content section-margin">
+            <div class="row around-xs">
+                <div class="col-xs-12 col-md-6 image-holder no-select no-drag center-text">
+                    <div class="notification wow bounceIn" data-wow-delay="0.5s">
+                        <i></i>
+                        به سوال شما پاسخ داده شد
+                    </div>
+
+                    <img src="../../assets/images/characters/resting-man.svg" width="362" height="237" style="width:362px;height:237px" class="resting-man" data-rellax-speed="1.5" data-wow-delay="1s">
+                </div>
+
+                <div class="col-xs-12 col-md-6">
+                    <h2 class="section-title right-text">اهمیت تولید نرم افزار</h2>
+                    <p class="lighter-text-color m-t-1-rem">
+                        روزگاری وایبر در اوج محبوبیت ایرانیان بود اما به مرور زمان، برنامه ارتباطی واتس آپ و بعد از آن تلگرام عرصه را بر دیگر رقیبان خود تنگ ساخت. بی شک انتخاب بعدی افراد، محیطی جذاب تر و کاربردی تر نسبت به دیگر برنامه ها خواهد بود.
+                        پس جای تعجب ندارد که چنین کاربرانی در همه ی زمینه ها از جمله پزشکی، نرم افزارها و اپلیکیشن ‌های تحت وب را به روش ‌های متداول و مرسوم کنونی ترجیح دهند. شرکت همیار سیستم نیز در همین راستا چند سالی ست که دو نرم افزار پرسش و پاسخ
+                        پزشکی و تعیین وقت آنلاین را طراحی و ارائه کرده است که به صورت مستمر بر اساس نیازهای پزشکان و بیمار، به روز رسانی و آپدیت می شوند.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="section-content section-margin m-t-10-rem">
+            <div class="row around-xs reverse">
+                <div class="col-xs-12 col-md-6 image-holder no-select no-drag center-text p-r flex center">
+                    <img src="../../assets/images/board/development/faq-box.svg" width="452" height="268" style="width:452px;height:268px" class="faq-box" data-rellax-speed="1.5" data-wow-delay="1s">
+                    <img src="../../assets/images/characters/secretary.svg" width="194" height="336" style="width:194px;height:336px" class="secretary p-a wow fadeInLeft" data-rellax-speed="1.5" data-wow-delay="1s">
+                </div>
+
+                <div class="col-xs-12 col-md-6">
+                    <h2 class="section-title right-text">پرسش و پاسخ از دکتر</h2>
+                    <p class="lighter-text-color m-t-1-rem">
+                        نرم افزار پرسش از دکتر به دلیل قابلیت تمام الکترونیک خود علاوه بر ایجاد ارتباط موثر میان پزشک و بیمار، قادر است تا بزرگترین بانک اطلاعات پزشکی بیماران را در زیردسته ‌های مختلف هر تخصص برای شما ذخیره سازی نماید.
+                        در این سیستم به هر بیمار یک کد رهگیری اختصاص داده می شود. هر زمان که پزشک سوال کاربر را پاسخ دهد از طریق چندین راه ارتباطی به او اطلاع داده می شود.
+                        علاوه بر این، با توجه به زمان محدود پزشکان عزیز و راحتی بیماران، امکان ارسال پاسخ سوالات به صورت صوتی برای کاربران نیز امکان پذیر شده است.
+                        اما در بزرگترین به روز رسانی این نرم افزار و کدنویسی ‌های حرفه ای، نرم افزار پرسش از دکتر به یک ابزار قابل توجه در بهبود سئو سایت و افزایش ترافیک آن تبدیل شده است. شایان ذکر است که با همکاری مداوم تیم سئو و برنامه نویسان
+                        برجسته
+                        همیار سیستم، این نوع استراتژی ها در حال بهبود و تکمیل شدن هستند.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-margin faq-features-section p-r p-t-2-rem" id="faq-features-section">
+    <div class="container">
+        <div class="section-content section-margin faq-features">
+            <div class="section-title white-text-color">
+                <h2 class="block m-b-6">امکانات نرم افزار پرسش و پاسخ از دکتر</h2>
+                <small class="block font-weight-light lighter-text-color font-size-16">به همه نیاز ‌های بیماران و دکتران اندیشیده‌ایم.</small>
+            </div>
+
+            <div class="faq-features-list m-t-2-rem">
+                <div class="white-box">
+                    <div class="row between-xs">
+                        ${require('../../constants/SoftwareDevelopment.ts').SoftwareDevelopment.FAQFeatures.map((feature, item) => feature && `
+                        <div class="col-xs-12 col-md-3 col-sm-6 col-xs-12">
+                            <div class="feature-item cf wow fadeIn" data-wow-delay="${item / 10}s">
+                                <span class="flex center right label rounded dark-purple-bg shadow fixed">
+                                   <i class="${feature.icon}"></i>
+                                </span>
+                                <div>${feature.title}</div>
+                            </div>
+                        </div>
+                        `).join('')}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-margin about-our-apps-2-section cf" id="about-our-apps-2-section">
+    <div class="container">
+        <div class="section-content section-margin">
+            <div class="row around-xs reverse center">
+                <div class="col-xs-12 col-md-6 image-holder no-select no-drag center-text p-r odr-image-holder">
+                    <img src="../../assets/images/board/development/odr-box.svg" width="584" height="408" style="width:584px;height:408px" class="odr-box">
+                    <img src="../../assets/images/board/development/odr-date-box.svg" width="231" height="248" style="width:231px;height:248px" class="odr-date-box p-a wow fadeInUp" data-wow-delay="1s">
+                    <img src="../../assets/images/characters/patient-man.svg" width="87" height="217" style="width:87px;height:217px" class="patient-man p-a wow fadeInLeft">
+                    <i class="rounded-rectangle rounded p-a"></i>
+                </div>
+
+                <div class="col-xs-12 col-md-6 m-t-2-rem">
+                    <h2 class="section-title right-text">تعیین وقت اینترنتی</h2>
+                    <p class="lighter-text-color m-t-1-rem">
+                        اگر بیما ر پس از مطالعه و بررسی خود، قصد مراجعه به مطب مورد نظر را داشته باشد، بی شک سیستم نوبت دهی اینترنتی را به ساعت ها معطل شدن پشت خط تلفن و یا عدم پاسخگویی به موقع منشی در ساعات شلوغ، ترجیح خواهد داد. فراموش نکنید که عدم
+                        پاسخگویی به موقع می تواند بیمار را به سمت مطب رقبای شما هدایت کند. اما نرم افزار تعیین وقت آنلاین شما یک منشی 24 ساعته خواهید داشت که همیشه در دسترس است.
+                    </p>
+                    <div class="m-t-2-rem">
+                        <a href="#" class="btn solid-blue wide">بیشتر بخوانید</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-content section-margin m-t-10-rem odr-features-section" id="odr-features-section">
+            <div class="row between-xs">
+                <div class="col-xs-12 col-md-3">
+                    <div class="solid-blue info-box white-text-color">
+                        <strong class="font-size-16">
+                            برخی از امکانات نرم افزار نوبت‌دهی
+                        </strong>
+                        <p class="lighter-text-color font-size-14 font-weight-light">
+                            اگر بیمار پس از مطالعه و بررسی خود، قصد مراجعه به مطب مورد نظر را داشته باشد بی شک سیستم نوبت دهی اینترنتی بیماران را به هر چیز دیگری ترجیح خواهد داد.
+                        </p>
+                    </div>
+                </div>
+                <div class="col-xs-12 col-md-9">
+                    <div class="info-box solid-light-gray">
+                        <div class="row between-xs">
+                            ${require('../../constants/SoftwareDevelopment.ts').SoftwareDevelopment.ODRFeatures.map((feature, item) => feature && `
+                            <div class="col-xs-12 col-md-3">
+                                <div class="feature-item cf wow fadeIn" data-wow-delay="${item / 10}s">
+                                <span class="flex center right label rounded white-bg fixed blue-text-color">
+                                   <i class="icon-done"></i>
+                                </span>
+                                    <div>${feature}</div>
+                                </div>
+                            </div>
+                            `).join('')}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="section-content section-margin m-t-5-rem">
+            <div class="row between-xs center">
+                <div class="col-xs-12 col-md-4 flex center no-select no-drag">
+                    <img src="../../assets/images/board/development/mobile-apps.svg" width="384" height="452" style="width:384px;height:452px" class="mobile-apps">
+                </div>
+                <div class="col-xs-12 col-md-6 flex center">
+                    <div>
+                        <h2 class="section-title right-text">طراحی نرم افزار و اپلیکیشن موبایل</h2>
+                        <p class="lighter-text-color m-t-1-rem">
+                            امروزه دیگر خبری از ساعت ‌های کوکی نیست؛ با صدای زنگ موبایل از خواب بیدار می شوید، با اپلیکیشن Waze نزدیک ترین مسیر را انتخاب می کنید و حتی در صورت نداشتن وسیله نقلیه، باز هم می توانید به کمک همان گوشی که در دست دارید،
+                            نزدیک
+                            ترین و ارزانترین آژانس را برای رسیدن به مقصد انتخاب کنید؛ آن هم بدون نگرانی از نبود ماشین و یا پردا خت هزینه ‌های سنگین. چند سالی است که اپلیکیشن ‌های موبایل محبوبیت زیادی در بین کاربران پیدا کرده اند تا جایی که بسیاری از
+                            افراد،
+                            سفارش غذا و حتی کارواش ماشین را نیز از طریق همین برنامه ‌های تحت وب انجام می دهند.
+                            همیار سیستم نیز در همین راستا آماده است تا طرح ها و ایده ‌های شما را در زمینه تولید نرم افزار و اپلیکیشن موبایل به مرحله تحقق برساند. برای کسب اطلاعات بیشتر و یا تعیین جلسه مشاوره می توانید از طریق فرم زیر با ما در ارتباط
+                            باشید.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

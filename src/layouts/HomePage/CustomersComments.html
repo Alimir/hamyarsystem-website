@@ -1,0 +1,78 @@
+<section class="customers-comments-section section-margin-2x section-padding p-b-8-rem m-b-4-rem cf" id="customers-comments-section">
+    <div class="container">
+        <div class="section-content">
+            <div class="row between-xs">
+                <div class="col-xs-12 col-sm-6">
+                    <div class="section-title right-text">نظرات مشتریان</div>
+                </div>
+                <div class="col-xs-12 col-sm-6 no-select">
+                    <div class="left flex center-row">
+                        <div class="btn blue rounded square-46 right flex center-row font-size-25">
+                            <i class="icon-multiline_chart"></i>
+                        </div>
+                        <div class="p-r-10">
+                            <strong class="block blue-text-color font-size-24 line-height-1">50+</strong>
+                            <div class="block font-size-16">مشتری راضی</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="customers-comments m-t-4-rem cf p-r">
+                <div class="customers-comments-layers cf">
+                    <div class="container-layer"></div>
+                    <div class="container-layer"></div>
+                    <div class="customers-comments-container">
+                        <!--<i class="wave-element"></i>-->
+                        <div class="customers-comments-slider-holder">
+                            <div class="customers-comments-slider">
+                                ${require('../../constants/HomePage.ts').HomePage.comments.map(comment => comment && `
+                                <div class="customers-comments-slider-item">
+
+                                    <svg width="375px" height="150px" viewBox="0 0 375 150" version="1.1" xmlns="http://www.w3.org/2000/svg" class="wave-top-left" style="width:375px;height:150px">
+                                        <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+                                            <g id="Home" transform="translate(-357.000000, -4191.000000)">
+                                                <g id="testimonials" transform="translate(25.000000, 3914.000000)">
+                                                    <g id="Group-52" transform="translate(273.000000, 209.000000)">
+                                                        <g id="testimonials-body-copy" transform="translate(0.000000, 28.000000)">
+                                                            <g id="Path-21-+-Path-22-Mask">
+                                                                <g id="Group-56" transform="translate(59.000000, 40.000000)">
+                                                                    <path d="M362,27 C352.898412,40.2375445 325.297224,52.3291688 317.84375,54 C300,58 290.465434,56 267,56 C236,56 240.630493,110.031108 203.769531,111.941406 C180,113.173249 125.393736,97.7821341 85.4296875,108.738281 C54.3054322,117.270998 35.5688197,145.976882 3.765625,149.875 L3.765625,15 L326,6.12890625 C360.666667,-1.47533787 374.666667,-1.89788327 368,4.86127004 C358.627332,14.3639654 387.354001,-4.99009035 366.81291,21.1232009 C365.438054,22.8710163 366.81291,20 362,27 Z"
+                                                                          id="Path-22" fill="#AEC1FF"></path>
+                                                                    <path d="M374.496094,5.15234375 C362.677842,34.228996 334.350325,54.4130687 303.671875,56.6171875 C284.379373,58.0032734 263.842598,52.455659 245.222656,60.8125 C222.016766,71.2275671 170.047676,122.528248 165.921875,125.90625 C124.506623,159.815014 42.0275913,142.113697 0.8359375,140.183594 L0.8359375,14 L374.496094,5.15234375 Z"
+                                                                          id="Path-21" fill="#8FA7F6" opacity="0.815104167"></path>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                    <div class="avatar-holder avatar rounded no-select no-drag">
+                                        <img srcSet="${comment.image.srcSet}" src="${comment.image.src}" alt="${comment.name}">
+                                    </div>
+                                    <div class="comment-holder">
+                                        <div class="comment-writer">
+                                            <a href="https://www.drjabbari.com" target="_blank">${comment.name}</a>
+                                            <span class="lighter-text-color font-weight-light">${comment.expertise}</span>
+                                        </div>
+                                        <blockquote cite="${comment.URL}">
+                                            ${comment.comment}
+                                        </blockquote>
+                                    </div>
+                                </div>
+                                `).join('')}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="customers-comments-navigator btn padding-0 white square-42 rounded shadow lighter-text-color font-size-16 p-t-10 p-a" id="customers-comments-next-button">
+                    <i class="icon-arrow_back"></i>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
